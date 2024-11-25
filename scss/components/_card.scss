@@ -1,0 +1,39 @@
+.productos-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.card{
+    width: 450px;
+    height: 350px;
+    .card-img{
+        width: 100%;
+        height: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+.card-contenido{
+    text-align: center;
+    color: black;
+    h3{
+        text-decoration: underline;
+        margin: 5px;
+    }
+    .p{
+        margin: 5px;
+    }
+    .btn{
+        margin: 20px;
+        padding: 10px 30px;
+        border: 1px solid black;
+        border-radius: 3px;
+        background-color: white;
+        font-weight: 700;
+    }
+}
